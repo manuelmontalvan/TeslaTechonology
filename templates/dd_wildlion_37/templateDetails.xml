@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+<extension version="2.5" client="site" type="template" method="upgrade">
+    <name>dd_wildlion_37</name>
+    <creationDate>2014-05-04</creationDate>
+    <version>1.0</version>
+    <author>www.diablodesign.eu</author>
+    <authorUrl>http://www.diablodesign.eu</authorUrl>
+           <description><![CDATA[
+           <style type="text/css" media="all">
+				<!--
+				h1 {clear:both;font-family: Georgia, sans-serif;font-size:36px;  font-weight: normal;}
+				h2 {clear:both;font-family: Georgia, sans-serif;font-size:20px;  font-weight: normal; }
+				-->
+			</style>	
+	<div class="dd-description clearfix">
+		<h1><img src="http://diablodesign.eu/syg.png" /></a><span style="color: #cc0607;"> DD wildlion 37</span></h1>
+		<div class="pull-left" style="max-width: 35.69%;">
+			<img style="max-width: 100%; box-sizing: border-box; -webkit-box-sizing: border-box; padding: 10px; background: #fff; border: 1px solid #e1e1e1;" src="../templates/dd_wildlion_37/template_thumbnail.png" />
+		
+		</div>
+		<div class="pull-left" style="max-width: 64.31%; box-sizing: border-box; -webkit-box-sizing: border-box; padding: 0 30px;">
+			<div style="margin-bottom: 20px;">
+				<div style="margin-bottom: 20px;">
+				
+			
+				
+				<span style="color: #a0a0a0; display: block; margin-top: 2px;"><li>Not for commercial!!! for commercial use, you must pay a special license (10 EURO)</li></span>
+				
+				
+				<span style="color: #a0a0a0; display: block; margin-top: 2px; font-size:12px;"><li><b>Why buy a license?</b><p>
+
+It allows you to remove ALL links to DiabloDesign.eu from your web site.
+
+Licensed Diablodedesign sites can also update their template (and remove the links to their website) with any of our current or future designs released.
+
+<li>Prior to purchasing a license, it is expected that you have fully tested our templates to ensure they meet your requirements.</li></span>
+<span style="color: #ff0000; display: block; margin-top: 2px;"><li>Szablonu nie można używać na stonach firmowych!!! Licencja dla stron firmowych kosztuje. (40PLN Brutto). Konto i dane do przelewu podane są na naszej stronie internetowej <a style="font-size: 15px; color: #3ea5ea;" target="_blank" href="http://www.diablodesign.eu">www.diablodesign.eu</a></li></span>
+				<div style="margin: 20px 0 0;">
+					<a style="text-decoration: none !important; outline: none;" target="_blank" href="http://www.diablodesign.eu">
+						<img src="http://diablodesign.eu/images/paypal.gif" />
+					</a>
+					<a href="http://www.diablodesign.eu" target="_blank" style="margin: 0 20px; color: #3ea5ea;">Buy Commercial license AMOUNT 10 €</a>
+				</div>
+			</div>
+		
+			</div>
+	<hr>
+		
+		</div>
+	</div>
+	]]>
+	</description>  
+    <files>
+        <folder>css</folder>
+        <folder>html</folder>
+        <folder>images</folder>
+        <folder>language</folder>
+        <folder>library</folder>
+        <folder>js</folder>
+	    <folder>inc</folder>
+        <file>component.php</file>
+        <file>favicon.ico</file>
+        <file>functions.php</file>
+        <file>index.html</file>
+        <file>index.php</file>
+        <file>jquery.js</file>
+        <file>modules.js</file>
+        <file>script.js</file>
+        <file>script.responsive.js</file>
+        <file>templateDetails.xml</file>
+        
+        <file>template_thumbnail.png</file>
+    </files>
+    <positions>
+        <position>debug</position>
+        <position>position-1</position>
+        <position>position-2</position>
+        <position>position-3</position>
+        <position>position-4</position>
+        <position>position-5</position>
+        <position>position-6</position>
+        <position>position-7</position>
+        <position>position-8</position>
+        <position>position-9</position>
+        <position>position-10</position>
+        <position>position-11</position>
+        <position>position-12</position>
+        <position>position-15</position>
+        <position>position-16</position>
+        <position>position-17</position>
+        <position>position-18</position>
+        <position>position-19</position>
+        <position>position-20</position>
+        <position>position-21</position>
+        <position>position-22</position>
+        <position>position-23</position>
+        <position>position-24</position>
+        <position>position-25</position>
+        <position>position-26</position>
+        <position>position-27</position>
+        <position>position-28</position>
+        <position>position-29</position>
+        <position>position-30</position>
+        <position>position-31</position>
+        <position>position-32</position>
+        <position>position-33</position>
+        <position>position-34</position>
+    </positions>
+  <config>
+        <fields name="params">
+		    <fieldset name="basic">
+			<field name="license" type="text" default="License Key" size="50" label="License Key" description="License Key"/>
+     
+            </fieldset>
+          <!--logo-->
+			 <fieldset name="logo" label="Logo "><field name="logo" type="media" label="Select image " description="Logo" default="templates/dd_wildlion_37/images/logo.png"/>
+				</fieldset>
+				
+	
+	<!--animcja-->
+				<fieldset name="animacja" label="Slideshow">
+					<field type="spacer" class="text" label="&lt;b style='color:red;'&gt;Rozmiar fotografi musi wynosić 1000px na 292px !&lt;/b&gt;&lt;/a&gt;" />
+					<field type="spacer" class="text" label="&lt;b style='color:green;'&gt;Size photo must be 1000px to 292px! !&lt;/b&gt;&lt;/a&gt;" />
+			<field name="foto1" type="media" label="Upload foto 1" description="" default="templates/dd_wildlion_37/images/slideshow/1.jpg"/>
+			<field name="foto2" type="media" label="Upload foto 2" description="" default="templates/dd_wildlion_37/images/slideshow/2.jpg"/>
+			<field name="foto3" type="media" label="Upload foto 3" description="" default="templates/dd_wildlion_37/images/slideshow/3.jpg"/>
+			<field name="foto4" type="media" label="Upload foto 4" description="" default="templates/dd_wildlion_37/images/slideshow/4.jpg"/>
+			<field name="foto5" type="media" label="Upload foto 5" description="" default="templates/dd_wildlion_37/images/slideshow/5.jpg"/>
+			
+			</fieldset>
+			
+						 <!--header info-->
+				<fieldset name="header" label="Header text">
+                 
+				  <field name="textlink" type="text" default="http://" size="50" label="Text url / Link Tekstu" description="text url"/>
+				  <field name="text1" type="textarea" default="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur..." rows="8" cols="60"  label="Header Info" description="info text " />
+				  
+				  <field name="text2" type="textarea" default="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur..." rows="8" cols="60"  label="Header Info" description="info text " />
+				  
+				  <field name="text3" type="textarea" default="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur..." rows="8" cols="60"  label="Header Info" description="info text " />
+				  
+				  <field name="text4" type="textarea" default="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur..." rows="8" cols="60"  label="Header Info" description="info text " />
+				  	<field type="spacer" class="text" label="&lt;b style='color:green;'&gt;close header txt / wyłącz tekst w nagłowku  !&lt;/b&gt;&lt;/a&gt;" />
+					<field type="spacer" class="text" label="&lt;b style='color:green;'&gt;position module headertext   !&lt;/b&gt;&lt;/a&gt;" />
+				  	<field name="textc" type="list" default="1" label="" description="">
+			
+		
+					<option value="0">Disabled / WYLACZ</option>
+					<option value="1">Enabled / ZALACZ</option>
+				</field>
+				  </fieldset>
+				  
+				  				 <!--banner-->
+				<fieldset name="Baner" label="Header Banner">
+                 
+				  <field name="baner1" type="textarea" default="Baner text 1" rows="8" cols="60"  label="Baner text 1" description="info text " />
+				  <field name="baner2" type="textarea" default="Baner text 2" rows="8" cols="60"  label="Baner text 2" description="info text " />
+				  <field name="baner3" type="textarea" default="Baner text 3" rows="8" cols="60"  label="Baner text 3" description="info text " />
+				  <field name="baner4" type="textarea" default="Baner text 4" rows="8" cols="60"  label="Baner text 4" description="info text " />
+				  <field name="baner5" type="textarea" default="Baner text 5" rows="8" cols="60"  label="Baner text 5" description="info text " />
+				  	<field type="spacer" class="text" label="&lt;b style='color:green;'&gt;Disabled Banner / wyłącz baner  !&lt;/b&gt;&lt;/a&gt;" />
+				
+				  	<field name="banerc" type="list" default="1" label="" description="">
+			
+		
+					<option value="0">Disabled / WYLACZ</option>
+					<option value="1">Enabled / ZALACZ</option>
+				</field>
+				  </fieldset>
+			<!--social-->
+			<fieldset name="social" label="Social icon">	
+			
+			<field name="facebook" type="text" default="http://facebook.com" label="Facebok url:" description="facebok link" filter="string" />
+			<field name="fbc" type="list" default="1" label="" description="">
+					<option value="0">Disabled / WYLACZ</option>
+					<option value="1">Enabled / ZALACZ</option>
+				</field>
+			
+			
+			<field name="twitter" type="text" default="http://twiiter.com" label="Twitter url:" description="twitter link" filter="string" />
+			<field name="twc" type="list" default="1" label="" description="">
+					<option value="0">Disabled / WYLACZ</option>
+					<option value="1">Enabled / ZALACZ</option>
+				</field>
+						<field name="vimeo" type="text" default="http://vimeo.com" label="vimeo url:" description="vimeo link" filter="string" />
+			<field name="vc" type="list" default="1" label="" description="">
+					<option value="0">Disabled / WYLACZ</option>
+					<option value="1">Enabled / ZALACZ</option>
+				</field>
+				<field name="pinterest" type="text" default="http://pinterest.com" label="pinterest url:" description="pinterest link" filter="string" />
+			<field name="pc" type="list" default="1" label="" description="">
+					<option value="0">Disabled / WYLACZ</option>
+					<option value="1">Enabled / ZALACZ</option>
+				</field>
+			</fieldset>
+			
+			
+				
+						<!--footer-->
+						<fieldset name="footer" label="Footer">       
+                       <field name="footer" type="text" default="Wild Lion Technology" size="50" label="Site name" description="footer site name"/>
+</fieldset>
+
+
+        </fields>
+    </config>
+ 
+</extension>

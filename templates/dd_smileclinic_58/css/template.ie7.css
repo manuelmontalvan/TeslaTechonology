@@ -1,0 +1,147 @@
+/* Created by Artisteer v4.3.0.60750 */
+
+.dd-header, #dd-header-bg, .dd-layout-cell, .dd-layout-wrapper, .dd-footer, .dd-nav, #dd-hmenu-bg, .dd-sheet,
+.clearfix {
+   zoom: expression(this.runtimeStyle.zoom="1", this.appendChild(document.createElement("br")).className="cleared");
+}
+
+.dd-textblock > div {
+   display: block;
+   line-height: normal;
+   zoom: 1;
+}
+
+.dd-header
+{
+   z-index: 1;
+   background-image: [headerimage];
+   background-position: [headerposition];
+}
+
+#dd-header-bg 
+{
+   display: none;
+}
+
+.dd-hmenu>li, .dd-hmenu>li>a
+{
+   display: inline !important;
+   zoom: 1;
+   float: none !important;
+   vertical-align: top;
+}
+ul.dd-hmenu, ul.dd-hmenu ul {
+   zoom: expression(this.runtimeStyle.zoom="1", this.appendChild(document.createElement("br")).className="cleared");
+}
+#dd-hmenu-bg 
+{
+   display: none;
+}
+
+ul.dd-hmenu>li:first-child {
+   padding-right:2px;
+}
+ul.dd-hmenu>li{
+   zoom:expression(runtimeStyle.zoom=1,insertBefore(document.createElement('span'),firstChild).className='dd-hmenu-separator');
+}
+ul.dd-hmenu>li>span.dd-hmenu-separator
+{
+   position:absolute;
+   display: block;
+   top:0;
+   left:  -2px;
+   width: 2px;
+   height: 34px;
+   background: url('../images/menuseparator.png') center center no-repeat;
+}
+ul.dd-hmenu>li:first-child>span.dd-hmenu-separator
+{
+   display:none;
+}
+
+ul.dd-hmenu ul{
+   background-color: #3D98D1 !important;
+}
+
+.dd-content-layout, .dd-content-layout-row, .dd-layout-cell 
+{
+   display: block;
+   zoom: 1;
+}
+.dd-layout-cell
+{
+   position:relative;
+   float: left;
+   clear: right;
+}
+
+ul.dd-vmenu, ul.dd-vmenu ul, ul.dd-vmenu li{
+   zoom: 1;
+}
+
+ul.dd-vmenu ul 
+{
+}
+
+input[type="text"]
+{
+   margin:0 0 0 -3px;
+   zoom:expression(runtimeStyle.zoom = 1, parentNode.insertBefore(document.createElement('div'), this).appendChild(this));
+}
+
+* html input[type="text"]
+{
+   margin :0;
+}
+
+form.dd-search>input[type="text"]
+{
+   margin:0 0 0 -3px;
+   zoom:expression(runtimeStyle.zoom = 1, parentNode.insertBefore(document.createElement('div'), this).appendChild(this));
+}
+
+form.dd-search div>input[type="text"]
+{
+   width: 100%;
+}
+
+* html form.dd-search>input[type="text"] 
+{
+   margin :0;
+}
+
+form.dd-search
+{
+   zoom: 1;
+}
+.dd-postmetadataheader{
+   zoom:1;
+}
+
+.dd-postheadericons span{
+   zoom: 1;
+}
+.dd-postcontent {
+   height: 1%;
+}
+
+.dd-postmetadatafooter{
+   zoom:1;
+}
+
+.dd-postfootericons span{
+   zoom: 1;
+}
+.close-alt, .arrow-right-alt, .arrow-left-alt {
+   display: block !important;
+}
+.cw, .ccw {
+   display: none !important;
+}
+
+.dd-sidebar2 
+{
+   width: auto;
+   float:none;
+}
+

@@ -1,0 +1,13 @@
+{
+    "site.sql": {
+        "dbtype": "pdomysql",
+        "dbtech": "mysql",
+        "dbname": "electronicos",
+        "sqlfile": "site.sql",
+        "dbhost": "localhost",
+        "dbuser": "root",
+        "dbpass": null,
+        "prefix": "c9xeb_",
+        "parts": 13
+    }
+}

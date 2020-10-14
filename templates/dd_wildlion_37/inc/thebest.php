@@ -1,0 +1,1 @@
+﻿<div class="welcome"><div id="object" class="slideLeft"><?php echo $this->params->get('text10'); ?> <div id="object" class="slideUp"><p><?php echo $this->params->get('text11'); ?></p></div></div>
